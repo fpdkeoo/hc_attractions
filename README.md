@@ -2,7 +2,7 @@
 
 程式介面:
 
-![image.png](image.png)
+![image.png](hc_attractions/image.png)
 
 使用了`PyQt5`，`sys`，`matplotlib`，`pandas` ，`folium`五種函式庫
 
@@ -18,42 +18,42 @@
 
 ①資料顯示：依照選擇年份和月份，將資料加總，繪製直條圖
 
-![image.png](18de78af-b228-4222-813c-a97d49d6374f.png)
+![image.png](hc_attractions/18de78af-b228-4222-813c-a97d49d6374f.png)
 
 ②地圖標示：將地點標示於地圖上，並顯示地名和加總後的人數
 
-![image.png](image%201.png)
+![image.png](hc_attractions/image%201.png)
 
 ③輸出直條圖：將直條圖存成檔案於資料夾中
 
-![image.png](image%202.png)
+![image.png](hc_attractions/image%202.png)
 
 # 程式介紹
 
 程式流程圖
 
-![image.png](image%203.png)
+![image.png](hc_attractions/image%203.png)
 
 年：讀取Excel裡的年份資料並新增加入名為’全部’的選項
 
-![image.png](8f523d3a-b050-468c-9ff7-06a3498a6b8d.png)
+![image.png](hc_attractions/8f523d3a-b050-468c-9ff7-06a3498a6b8d.png)
 
 月：依照’年’所選擇的結果抓取月份的資料並新增加入名為’全年’的選項
 
-![image.png](image%204.png)
+![image.png](hc_attractions/image%204.png)
 
 顯示直條圖：直條圖的標題依照所選條件做改變，顏色和地點名稱做綁定
 
-![image.png](image%205.png)
+![image.png](hc_attractions/image%205.png)
 
 輸出直條圖：將直條圖存入資料夾中，檔名依照所選條件做改變
 
-![image.png](image%206.png)
+![image.png](hc_attractions/image%206.png)
 
 地圖：將地點加入地圖，並加入名稱和人數
 
-![image.png](defb9a14-5dd0-42f2-a89e-f89909784713.png)
+![image.png](hc_attractions/defb9a14-5dd0-42f2-a89e-f89909784713.png)
 
 顯示結果
 
-![image.png](image%207.png)
+![image.png](hc_attractions/image%207.png)
